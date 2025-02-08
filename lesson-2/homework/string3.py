@@ -1,0 +1,6 @@
+word = input("Enter a word: ")
+print(f"{word} has {len(word)} letters")
+word = word.upper()
+print(word)
+word = word.lower()
+print(word)
