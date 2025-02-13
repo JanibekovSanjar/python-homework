@@ -1,0 +1,7 @@
+num_tuple = (1,4,6,3,7,12,14,15)
+print(num_tuple)
+start = int(input(f"Enter the starting index(from 0 to {len(num_tuple)-2}):\n>>>"))
+end = int(input(f"Enter the ending index(from {start+1} to {len(num_tuple)-1}):\n>>>"))
+subtuple = list(num_tuple[start:end+1])
+subtuple.sort()
+print(f"Smallest element of the sublist: {subtuple[0]}") 
