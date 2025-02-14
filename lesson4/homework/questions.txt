@@ -1,0 +1,11 @@
+1.The code after continue statement is skipped. While break statement terminates the loop
+2.For loop is used to iterate over a sequence and it's useful when we know the number of iterations
+whereas while loop is used to execute a block of code as long as condition is true and this loop is 
+useful when we don't know number of iterations
+3.The inner loop will be executed one time for each iteration of the outer loop.
+for i in range(3):
+    print(f"Outer loop iteration {i}")
+    
+    # Inner loop
+    for j in range(2):
+        print(f"  Inner loop iteration {j}")
