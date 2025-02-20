@@ -1,0 +1,8 @@
+Word Count Report
+Total Words: 15
+Top 5 Words:
+one - 3
+has - 3
+minutes - 1
+hour - 1
+60 - 1

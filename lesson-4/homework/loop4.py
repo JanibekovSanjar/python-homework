@@ -13,7 +13,7 @@ while True:
         
         if user > num:
             print("Too high!")
-        elif user < num:
+        elif user < num:    
             print("Too low!")
         else:
             print("You guessed it right!")
